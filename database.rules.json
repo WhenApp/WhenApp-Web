@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "events": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid",
+        ".indexOn": "when"
+      }
+    }
+  }
+}
